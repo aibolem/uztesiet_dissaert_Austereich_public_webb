@@ -1,0 +1,17 @@
+[core]
+	bare = false
+	repositoryformatversion = 0
+	filemode = false
+	ignorecase = true
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/aibolem/Signfy
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
