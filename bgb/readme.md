@@ -1,4 +1,4 @@
-### BgB
+### BgB & M©_Music_gen
 
 https://bgb.bircd.org/manual.html
 
